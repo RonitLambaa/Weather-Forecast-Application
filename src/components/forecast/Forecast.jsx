@@ -28,8 +28,7 @@ function Forecast({data}) {
                             </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
-                            <div className="cont">
-
+                            
                                 <div className='daily-details-grid'>
                                     <div className="daily-detail-grid-item">
                                         <label >Pressure</label>
@@ -56,7 +55,7 @@ function Forecast({data}) {
                                         <label >{Math.round(item.main.feels_like)}°C</label>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </AccordionItemPanel>
                     </AccordionItem>
                 ))}
